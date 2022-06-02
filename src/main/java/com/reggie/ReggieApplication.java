@@ -18,6 +18,7 @@ public class ReggieApplication {
         System.out.println("git 333333");
         System.out.println("远程的修改");
         System.out.println("本地的修改");
+        System.out.println("本地是修改====");
         System.out.println("本地的修改=====2222");
     }
 }
