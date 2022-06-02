@@ -16,5 +16,6 @@ public class ReggieApplication {
         log.info("项目启动");
         System.out.println("hello got");
         System.out.println("git 333333");
+        System.out.println("远程的修改");
     }
 }
