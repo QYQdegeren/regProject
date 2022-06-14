@@ -15,6 +15,5 @@ public class ReggieApplication {
     public static void main(String[] args) {
         ConfigurableApplicationContext context = SpringApplication.run(ReggieApplication.class, args);
         log.info("项目启动");
-
     }
 }
