@@ -4,6 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
@@ -11,6 +12,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication
 @ServletComponentScan//扫描WebFilter注解，添加过滤器
 @EnableTransactionManagement
+@EnableCaching //开启spring cache的注解缓存功能
 public class ReggieApplication {
     public static void main(String[] args) {
         ConfigurableApplicationContext context = SpringApplication.run(ReggieApplication.class, args);
